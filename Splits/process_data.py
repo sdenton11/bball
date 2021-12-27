@@ -100,7 +100,7 @@ def process_directory(directory, players):
         else:
             all_dfs.append(process_file(file))
 
-    if len(player_list) > 0:
+    if player_list is not None and len(player_list) > 0:
         raise ValueError("Invalid player names: {}. Please remember the names of the players should  ".format(player_list) + \
          "be seperated by \",\". For more help run \"python3 process_data.py --h\"")
     
