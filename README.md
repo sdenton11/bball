@@ -36,7 +36,7 @@ Step 2: Open terminal, navigate to split (if you followed my directions this wou
 
 Step 3: Run the script by typing `python3 process_data.py Data/  --p PLAYER_NAME --s SPLIT_CATEGORY`
 
-For example, try `python3 process_data.py Data/  --p steph --s opponent`
+For example, try `python3 process_data.py Data/  --s opponent --p steph`
 
 If you leave anything blank, it will run it for all of that category. For example, let's get all player's game result splits: `python3 process_data.py Data/ --s game_result`
 
