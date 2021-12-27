@@ -34,7 +34,7 @@ Step 1: Put the file of interest in the `bball/Split/Data` folder
 
 Step 2: Open terminal, navigate to split (if you followed my directions this would be `cd ~/Desktop/bball/Split`
 
-Step 3: Run the script by typing `python3 process_data.py Data/  --p PLAYER_NAME --s SPLIT_CATEGORY`
+Step 3: Run the script by typing `python3 process_data.py Data/ --s SPLIT_CATEGORY --p PLAYER_NAMES `
 
 For example, try `python3 process_data.py Data/  --s opponent --p steph`
 
